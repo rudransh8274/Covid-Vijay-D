@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin-Login</title>
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="CoronaVijay.css">
+
+<style>    
+.userid{
+    font-weight: bold;
+}
+.topspace{
+    margin-top: 200px;
+}
+.eventBook{
+	font-family:monaco;
+}
+
+</style>
+
+
+    </head>
+        <body>
+            <h1 align="center"class="eventBook">Welcome ADMIN!</h1>
+
+            <form class="form-card topspace">
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend userid">Admin-Login</legend>
+
+           <p class="userid"> UserID    <input type="text" placeholder="Enter Your UserID"></input></p> <br>
+            
+            <label for="cars">Choose Admin Area </label>
+        
+        <select name="area" id="area">
+          
+             <option value="Ajmer">Ajmer</option>
+             <option value="Alwar">Alwar</option>
+             <option value="Bhilwara">Bhilwara</option>
+             <option value="Bikaner">Bikaner</option>
+             <option value="Chittorgarh">Chittorgarh</option>
+             <option value="Jaipur">Jaipur</option>
+             <option value="Jaisalmer">Jaisalmer</option>
+             <option value="Jodhpur">Jodhpur</option>
+             <option value="Kota">Kota</option>
+             <option value="Nagaur">Nagaur</option>
+             <option value="Udaipur">Udaipur</option>
+             
+        </select>  <br><br>
+
+        <p class="userid">Password <input type="text" name="password"></input></p>
+    
+        </fieldset>
+	
+        <div class="form-actions">
+            <button class="form-btn" type="submit">Confirm</button>
+            <button class="form-btn-cancel -nooutline" type="reset">Cancel</button>
+        </div>
+    </form>
+
+        </body>
+</html>
